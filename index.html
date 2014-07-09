@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SpheroControl - Web</title>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src='js/spheroweb.js'></script>
+</head>
+
+<body id="home">
+
+	<div id="wrapper">
+		<header>
+			<h1>Sphero Web Control</h1>
+			<p>An interactive way (duh) to control your sphero through a browser.</p>
+		</header>
+		<section id="howto">
+			<p>You obviously need a Sphero. Once you have that, you can either control it with a Leap Motion, the arrow keys + space on your keyboard or, if you are a gamer with the more familiar WASD (+ Space) combo.</p>			
+		</section>
+		<section id="sec-controls">
+			<!--This is really only a text field showing the keystrokes (at least right now)-->
+			<!--<header class='sectionheader'>
+				<h1>Your Actions</h1>
+			</header>-->
+			<div class="row">
+				<div class="controls">
+					<textarea readonly="true"></textarea>
+				</div>
+				<div class="controlhints">
+					Arrow Keys: No surprises here, Up will move forward, Down backwards, Left and Right will move in these directions. Space will turn the Sphero clockwise by X degrees.
+					WASD: Again, no surprises. W is forward, S is back, A and D are left and right respectively. Space will do the same as with the arrow keys.
+					Leap Motion: Control your Sphero with swipe gestures. Good Luck with that! Gesture recognition really sucks at this point... It's fun though, just don't try this our near a pool or a crevice.
+					
+				</div>
+			</div>
+		</section>
+	</div><!--wrapper-->
+
+</body>
+</html>
